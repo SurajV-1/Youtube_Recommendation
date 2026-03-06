@@ -1,0 +1,54 @@
+/* Main app container */
+.app{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f5f7fb;
+  min-height: 100vh;
+  padding: 40px;
+}
+
+/* Title */
+.app h1{
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Input box */
+.app input{
+  padding: 10px;
+  width: 250px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+/* Button */
+.app button{
+  padding: 10px 20px;
+  border: none;
+  background-color: #ff4d4d;
+  color: white;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.app button:hover{
+  background-color: #e60000;
+}
+
+/* Video container */
+.video{
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* iframe video */
+.video iframe{
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
